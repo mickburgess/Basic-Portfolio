@@ -27,7 +27,7 @@ h1 {
   position: absolute;
   top: 0;
   overflow: auto;
-  margin-left: 260px;
+  left: 260px;
 }
 
 h2 {
@@ -38,6 +38,13 @@ h2 {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: #cccccc solid 2px;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  width: 380px;
 }
 
 li {
@@ -108,7 +115,7 @@ button {
 
 .wrapper {
   width: 100%;
-  margin: 30px 0px 0px;
+  margin: 30px 0px 25px;
   min-height: calc(100vh - 130px);
 }
 
@@ -149,4 +156,60 @@ button {
 
 #name {
   margin: 20px 0px 10px
+}
+
+#wireframe {
+  float: left;
+  position: relative;
+  margin: 25px 25px 25px 0px;
+}
+
+#wireframe-header {
+  position: absolute;
+  bottom: 10px;
+}
+
+#proj-2 {
+  float: left;
+  position: relative;
+  margin: 25px 25px 25px 0px;
+}
+
+#proj-2-header {
+  position: absolute;
+  bottom: 10px;
+}
+
+#proj-3 {
+  clear: both;
+  position: relative;
+  float: left;
+  margin: 25px 25px 25px 0px;
+}
+
+#proj-3-header {
+  position: absolute;
+  bottom: 10px;
+}
+
+#proj-4 {
+  float: left;
+  position: relative;
+  margin: 25px 25px 25px 0px;
+}
+
+#proj-4-header {
+  position: absolute;
+  bottom: 10px;
+}
+
+#proj-5 {
+  clear: both;
+  position: relative;
+  margin: 25px 25px 25px 0px;
+}
+
+#proj-5-header {
+  position: absolute;
+  bottom: 10px;
 }
